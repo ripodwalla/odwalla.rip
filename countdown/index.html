@@ -1,0 +1,36 @@
+<!--Credit goes to https://github.com/kadjahoe for the original code-->
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Odwalla RIP Countdown</title>
+<meta name="Description" content="A Odwalla info, countdown and gallery site, because they're shutting down.">
+<link rel="stylesheet" type="text/css" href="timer.css">
+</head>
+<body>
+	<div class="display">
+		<button class="call_to_action_button" type="button" onclick="home()">Main Page</button>
+		<div id="clock" class="clock">
+			<h1 class="event_title">Odwalla is Completely Shutting Down in</h1>
+			<div id="numbers">
+				<span class="days"></span>
+				<span class="hours"></span>
+				<span class="minutes"></span>
+				<span class="seconds"></span>
+			</div>
+			<div id="units">
+				<span>Days</span>
+				<span>Hours</span>
+				<span>Minutes</span>
+				<span>Seconds</span>
+			</div>
+		</div>
+		<div id="door" class="hide">
+			<h1 class="event_title">Odwalla is Shutdown</h1>
+			<p class="action_caption">Click the button below to pay respect</p>
+			<button class="call_to_action_button" type="button" onclick="payrespect()">Pay Respect</button>
+		</div>
+	</div>
+	<script src="timer.js"></script>
+</body>
+</html>
