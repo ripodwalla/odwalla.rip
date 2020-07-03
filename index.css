@@ -61,6 +61,10 @@ button:focus{
 	letter-spacing: 5px;
 }
 
+.desc {
+	word-wrap: break-word;
+}
+
 body {
     background-image: url("images/odwalla.jpg");
     background-color: #cccccc;
